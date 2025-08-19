@@ -1,5 +1,4 @@
 /**
- * This file was created in whole or in part by generative A.I.
  * Example Playwright test file for manual testers.
  */
 import { test, expect } from '@playwright/test';

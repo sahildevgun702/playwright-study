@@ -1,5 +1,4 @@
 /**
- * This file was created in whole or in part by generative A.I.
  * Playwright configuration for TypeScript project.
  */
 import { defineConfig, devices } from '@playwright/test';
