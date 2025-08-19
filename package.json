@@ -1,0 +1,15 @@
+{
+  "name": "playwright-study",
+  "version": "1.0.0",
+  "description": "Repository to help manual testers learn automation using Playwright, TypeScript, and TestNG-like structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "sahildevgun702",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.0.0"
+  }
+}
