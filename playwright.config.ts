@@ -4,7 +4,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: './', // Look for tests in the entire project
+  testMatch: ['**/tests/**/*.spec.ts', '**/exercises/**/*.spec.ts'], // Include both tests and exercises
   timeout: 30 * 1000, // 30 seconds per test
   retries: 1, // Retry failing tests once
   use: {

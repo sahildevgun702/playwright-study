@@ -1,5 +1,5 @@
 /**
- * Example Playwright test file for manual testers.
+ * Example Playwright test 
  */
 import { test, expect } from '@playwright/test';
 

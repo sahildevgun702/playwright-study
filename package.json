@@ -4,7 +4,11 @@
   "description": "Repository to help manual testers learn automation using Playwright, TypeScript, and TestNG-like structure.",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:exercises": "npx playwright test exercises/",
+    "postinstall": "npx playwright install"
   },
   "author": "sahildevgun702",
   "license": "MIT",
