@@ -27,4 +27,19 @@ Before you begin, make sure you have followed the setup instructions in the main
 
 ---
 
+
 [Exercise 1: Open a Web Page](./01_open_page.spec.ts)
+
+---
+
+## How to Run an Exercise Test
+
+By default, Playwright only runs tests in the `tests` folder. To run an exercise file, use this command in your terminal:
+
+```
+npx playwright test exercises/01_open_page.spec.ts
+```
+
+Replace `01_open_page.spec.ts` with the name of the exercise you want to run.
+
+
