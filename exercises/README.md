@@ -43,3 +43,4 @@ npx playwright test exercises/01_open_page.spec.ts
 Replace `01_open_page.spec.ts` with the name of the exercise you want to run.
 
 
+test
