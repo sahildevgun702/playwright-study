@@ -13,6 +13,15 @@ This repository helps manual testers learn automation using [Playwright](https:/
     ```bash
     npx playwright test
     ```
+## How to Run a Playwright Exercise Test
+
+By default, Playwright only runs tests in the `tests` folder. To run a Playwright exercise file, use this command in your terminal:
+
+```
+npx playwright test exercises/playwright-exercises/01_open_page.spec.ts
+```
+
+Replace `01_open_page.spec.ts` with the name of the Playwright exercise you want to run.
 
 ## Folder Structure
 
