@@ -44,8 +44,10 @@ Here is a simple explanation of the main files in this project:
 If you see a file and don’t know what it does, check here or ask for help. Most files are there to help your code run smoothly and keep things organized.
 
 
+
 ## Learn More
 
 - [Playwright Docs](https://playwright.dev/docs/intro)
 - [TypeScript Docs](https://www.typescriptlang.org/docs/)
-- [Git Basics for Beginners](./git-basics.md)
+- [TypeScript Basics for Testers](./guides/typescript-basics.md)
+- [Git Basics for Beginners](./guides/git-basics.md)
