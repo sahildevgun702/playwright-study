@@ -7,7 +7,6 @@ Each exercise will help you learn basic concepts step by step, using Playwright 
 - Read the instructions and explanations carefully.
 - Try to write or modify the code yourself.
 - Run the tests and observe what happens.
-- Don’t worry if you make mistakes—experimentation is part of learning!
 
 ## Exercises Overview
 1. **Open a Web Page**: Learn how to launch a browser and visit a website.
@@ -28,17 +27,19 @@ Before you begin, make sure you have followed the setup instructions in the main
 ---
 
 
-[Exercise 1: Open a Web Page](./01_open_page.spec.ts)
+
+[Playwright Exercise 1: Open a Web Page](./playwright-exercises/01_open_page.spec.ts)
 
 ---
 
-## How to Run an Exercise Test
 
-By default, Playwright only runs tests in the `tests` folder. To run an exercise file, use this command in your terminal:
+## How to Run a Playwright Exercise Test
+
+By default, Playwright only runs tests in the `tests` folder. To run a Playwright exercise file, use this command in your terminal:
 
 ```
-npx playwright test exercises/01_open_page.spec.ts
+npx playwright test exercises/playwright-exercises/01_open_page.spec.ts
 ```
 
-Replace `01_open_page.spec.ts` with the name of the exercise you want to run.
+Replace `01_open_page.spec.ts` with the name of the Playwright exercise you want to run.
 
