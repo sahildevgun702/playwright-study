@@ -23,7 +23,6 @@ This repository helps manual testers learn automation using [Playwright](https:/
 
 ## Security and Compliance
 
-- Code follows ISO 27001, SOC2, and OWASP best practices.
 - No secrets or credentials are hardcoded.
 - Inline comments provided for complex code.
 - AI-generated files include a header note.
@@ -32,4 +31,3 @@ This repository helps manual testers learn automation using [Playwright](https:/
 
 - [Playwright Docs](https://playwright.dev/docs/intro)
 - [TypeScript Docs](https://www.typescriptlang.org/docs/)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
