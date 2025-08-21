@@ -9,6 +9,10 @@ test-results/
 playwright-report/
 playwright/.cache/
 
+# Playground - Optional: Uncomment to ignore personal experiments
+# playground/personal-*
+# playground/temp-*
+
 # TypeScript
 *.tsbuildinfo
 dist/

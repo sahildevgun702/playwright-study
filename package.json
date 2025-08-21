@@ -8,6 +8,8 @@
     "test:headed": "npx playwright test --headed",
     "test:debug": "npx playwright test --debug",
     "test:exercises": "npx playwright test exercises/",
+    "test:playground": "npx playwright test playground/",
+    "playground": "npx playwright test playground/ --headed",
     "postinstall": "npx playwright install"
   },
   "author": "sahildevgun702",

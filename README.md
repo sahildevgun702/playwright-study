@@ -26,6 +26,8 @@ Replace `01_open_page.spec.ts` with the name of the Playwright exercise you want
 ## Folder Structure
 
 - `tests/` — Example test files.
+- `exercises/` — Beginner-friendly exercises and guides.
+- `playground/` — Safe space for experimentation and practice.
 - `playwright.config.ts` — Playwright configuration.
 - `tsconfig.json` — TypeScript configuration.
 - `package.json` — Project metadata and scripts.
@@ -49,6 +51,22 @@ Here is a simple explanation of the main files in this project:
 - **.gitignore**: Tells Git which files/folders to ignore (not track in version control).
 - **tests/**: Folder where your test scripts live.
 - **exercises/**: Folder with beginner exercises and guides.
+- **playground/**: Safe experimentation area - try anything here!
+
+## Quick Start for Manual Testers
+
+Want to start experimenting right away? 
+
+```bash
+# Run the playground example
+npm run playground
+
+# Copy an exercise to experiment with
+cp exercises/playwright-exercises/01_open_page.spec.ts playground/my-experiment.spec.ts
+
+# Run your experiments
+npm run test:playground
+```
 
 If you see a file and don’t know what it does, check here or ask for help. Most files are there to help your code run smoothly and keep things organized.
 
