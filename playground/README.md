@@ -14,7 +14,7 @@ This folder is for **experimentation and practice**. Feel free to:
    - `team-a-practice.spec.ts`
    - `experimental-api-tests.spec.ts`
 
-2. **Copy and modify**: Start by copying files from `exercises/` or `tests/`
+2. **Copy and modify**: Start by copying files from `playground/exercises/` 
 
 3. **No rules**: This is your space to learn and experiment
 
@@ -24,7 +24,6 @@ This folder is for **experimentation and practice**. Feel free to:
    - Push your branch: `git push origin playground/your-name-experiments`
    - This keeps your experiments separate from the main codebase
 
-5. **Privacy options**: Files starting with `personal-` or `temp-` can be ignored by Git (see main .gitignore)
 
 ## Getting Started:
 
@@ -33,13 +32,13 @@ This folder is for **experimentation and practice**. Feel free to:
 cd playwright-study
 
 # Copy an existing test to start experimenting
-cp exercises/playwright-exercises/01_open_page.spec.ts playground/my-first-experiment.spec.ts
+cp playground/exercises/example-playground.spec.ts
 
 # Run your playground tests (direct Playwright command)
-npx playwright test playground/
+npx playwright test playground/sahil/website_allow_location.spec.ts
 
 # Or run with visible browser (recommended for learning)
-npx playwright test playground/ --headed
+npx playwright test playground/sahil/website_allow_location.spec.ts --headed
 
 ```
 
