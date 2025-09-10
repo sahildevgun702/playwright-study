@@ -9,6 +9,11 @@ This repository helps manual testers learn automation using Playwright and TypeS
     git clone https://github.com/sahildevgun702/playwright-study.git
     cd playwright-study
     ```
+    **What these commands do:**
+    - `git clone` downloads a copy of this project to your computer
+    - `cd playwright-study` changes your terminal location into the project folder
+    
+    **Think of `cd` like opening a folder on your computer.** You need to be "inside" the project folder for the next commands to work properly.
 
 2. **Install dependencies**
     ```bash
