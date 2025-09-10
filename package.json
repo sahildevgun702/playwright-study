@@ -1,7 +1,7 @@
 {
   "name": "playwright-study",
   "version": "1.0.0",
-  "description": "Repository to help manual testers learn automation using Playwright, TypeScript, and TestNG-like structure.",
+  "description": "Repository to help manual testers learn automation using Playwright, TypeScript.",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
