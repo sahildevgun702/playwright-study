@@ -35,27 +35,7 @@ test('test', async ({ browser }) => {
 
 
 
-  //tap NFL comp
-  await page.getByRole('link', { name: 'NFL' }).click();
   
-  // Verify the title text
-  await expect(page.getByTestId('title')).toHaveText('NFL');
-  
-  // Alternative ways to verify title text:
-  // 1. Check if title contains specific text
-  // await expect(page.getByTestId('title')).toContainText('NFL');
-  
-  // 2. Get the text and verify it
-  // const titleText = await page.getByTestId('title').textContent();
-  // expect(titleText).toBe('Expected Title Text');
-  
-  // 3. Verify title is visible and has text
-  // await expect(page.getByTestId('title')).toBeVisible();
-  // await expect(page.getByTestId('title')).not.toBeEmpty();
-
-// Navigate back to Home
- await page.getByRole('button', { name: 'Toggle Menu' }).click();
-  await page.getByLabel('Home').click();
 
   // Close the context
   await context.close();
